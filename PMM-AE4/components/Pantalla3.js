@@ -36,6 +36,8 @@ const Pantalla3 = () => {
     return (
         <View style={styles.layout}>
             <Text style={styles.title}>Consulta a la API pública PokeApi</Text>
+            <Text>En esta pantalla, se hace una consulta a una API pasándole el nombre de un pokemon ("Hardcodeado"), y se imprimen algunos datos:</Text>
+            &nbsp;
             {
                 respuesta? 
                 <>
