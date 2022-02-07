@@ -6,6 +6,7 @@ import Pantalla1 from './components/Pantalla1';
 import Pantalla2 from './components/Pantalla2'; 
 import Pantalla3 from './components/Pantalla3'; 
 import Pantalla4 from './components/Pantalla4'; 
+import * as React from 'react';
 
 const Tab = createBottomTabNavigator();
 export default function App() {
