@@ -1,5 +1,5 @@
 {
-  "name": "simulacroexamen",
+  "name": "libcomp",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -10,9 +10,8 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@react-navigation/drawer": "^6.3.0",
-    "@react-navigation/native": "^6.0.8",
-    "@react-navigation/stack": "^6.1.1",
+    "@ant-design/react-native": "^4.2.0",
+    "antd-mobile": "^5.0.0-rc.21",
     "expo": "~44.0.0",
     "expo-status-bar": "~1.2.0",
     "react": "17.0.1",
