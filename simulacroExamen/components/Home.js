@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
@@ -11,6 +12,7 @@ import Alemania from './Alemania';
 
 const Stack = createStackNavigator();
 const Home = () => {
+
     return (
         <NavigationContainer independent={true}>
         <Stack.Navigator>
@@ -18,7 +20,7 @@ const Home = () => {
                 <Stack.Screen name="Paises" component={Paises} />
             </Stack.Group>
             <Stack.Group screenOptions={{ presentation: 'modal' }}>
-                <Stack.Screen name="Espanya" component={Espanya} />
+                <Stack.Screen name="Espanya"  component={Espanya} />
                 <Stack.Screen name="Francia" component={Francia} />
                 <Stack.Screen name="Portugal" component={Portugal} />
                 <Stack.Screen name="Alemania" component={Alemania} />
