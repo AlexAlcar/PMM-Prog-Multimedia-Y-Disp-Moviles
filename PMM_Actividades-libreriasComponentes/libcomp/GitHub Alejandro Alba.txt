@@ -1,0 +1,5 @@
+https://github.com/AlexAlcar/PMM_Actividades
+
+Usada la librería AntDesign para React Native.
+
+He subido la carpeta del proyecto sin el node_modules
